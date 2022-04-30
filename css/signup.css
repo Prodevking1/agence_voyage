@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+
+	background: url(../images/3.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	margin-top: 40px;
+}
+.ins{
+	padding: 0;
+	font-size: 14px;
+	width:500px;
+	margin:auto;
+	color: #FFF;
+	background-color: rgb(0,0,0,0.5);
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	border-radius: 28px 32px 0px 0px;
+}
+/* cadre principal */
+
+.main{
+	background-color: rgb(0,0,0,0.3);
+	margin: auto;
+	width: 500px;
+}
+/* pour les formulaires */
+form
+{
+	padding: 15px;
+}
+.name{
+	margin-left: 25px;
+	margin-top: 20px;
+	width: 150px;
+	color: white; 
+	font-size: 15px;
+	font-weight: 700;
+}
+.nom
+{
+	position: relative;
+	left:147px;
+	top: -30px;
+	line-height: 35px;
+	border-radius: 8px;
+	padding: 0 22px;
+	font-size: 16px;
+}
+.prenom
+{
+	position: relative;
+	left:150px;
+	top: -30px;
+	line-height: 35px;
+	border-radius: 8px;
+	font-size: 20px;
+
+}
+.radio{
+	position: relative;
+	left: 200px;
+	top: -16px;
+}
+.email{
+	position: relative;
+	left:150px;
+	top: -25px;
+	line-height: 35px;
+	border-radius: 8px;
+	font-size: 20px;
+}
+.tel{
+	position: relative;
+	left:150px;
+	top: -25px;
+	line-height: 35px;
+	border-radius: 8px;
+	font-size: 20px;
+}
+.pays{
+	position: relative;
+	left:150px;
+	top: -25px;
+	line-height: 35px;
+	border-radius: 8px;
+	font-size: 18px;
+}
+.ville{
+	position: relative;
+	left:150px;
+	top: -25px;
+	line-height: 35px;
+	border-radius: 8px;
+	font-size: 20px;
+}
+.adresse{
+	position: relative;
+	left:150px;
+	top: -25px;
+	line-height: 35px;
+	border-radius: 8px;
+	font-size: 20px;
+}
+.envoyer{
+	position: relative;
+	left:-10px;
+	top: 10px;
+	font-size: 20px;
+	width: 490px;
+	border-radius: 5px;
+	background-color: #D64BBE;
+
+
+}
+.envoyer:hover{
+	background-color: #890F3B;
+}
+/* pour le log de retour */
+.left{
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-left:200px;
+}
+.left-text{
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	text-indent: 5px;
+
+
+}
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.left-text:hover{
+	color: gold;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">	<title>Login</title>
+</head>
+<body>
+	<!-- retour accueil -->
+	<a href="../index.html"><img class= "left"src="../images/left.jpg"></a>
+	<a href="../index.html"><p class="left-text">Revenir à l'accueil</p></a>
+
+	<!-- image servant de logo -->
+
+	<div>
+		<img class="user" src="../images/user-01.png" width="170">
+	</div>
+
+	<!-- zone de formulaires -->
+
+	<div id="area-1">
+		<h1> <marquee scrollamount="3"> Connectez vous à votre compte Air✈️Murray</marquee></h1>
+
+		<!-- formulaires -->
+
+		<form>
+			<p class="hash1" >Adresse E-mail</p>
+			<input type="text" name="mail-user" placeholder="nom@exemple.com" class="username">
+				<p class="hash2">Mot de passe</p>
+			<input type="password" name="password" placeholder="1234567890@" id="pass">
+		</form>
+
+		<!-- popup -->
+
+		<div class="last">
+			<button id="mylogin"  onclick="login()" class="connecter"><p>Me connecter</p></button>
+			<script>
+				var x;
+				function login() {
+					x = confirm("Vous serez rediriger");
+					if (x==true) {
+						document.location.href="../index.html"
+					}
+				}
+			</script>
+
+			<!-- possibilites similaires -->
+			<a href="signup.html" class="new">Je n'ai pas de compte</a>
+			<a href="../index.html" class="forget">Mot de passe oublié ?</a>
+		</div>
+	</div>
+</body>
+</html>

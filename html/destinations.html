@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css">
+	<link rel="stylesheet" type="text/css" href="../css/destinations.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<title>Organisation</title>
+</head>
+<body>
+			<!-- tete de page -->
+
+			<header>
+			<div class="wrapper">
+			<img class="logo" width="300px" height="100px" src="../images/logo.png" alt="LOGO">
+
+			<!-- barre de navigation -->
+				<nav>
+					<ul>
+					<li><a href="../index.html">Accueil</a></li>
+					<li><a href="destinations.html">Destinations</a></li>
+					<li><a href="circuits.html">Circuits</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li>
+						<a href="#account"> <img src="../images/1.png" width="x" height="20px">   Compte </a> 
+						<ul>
+							<li> <a href="login.html" class="up">Connexion</a> </li>
+							<li> <a href="signup.html" class="up">Inscription</a> </li>
+						</ul>
+					</li>
+				</ul>
+				</nav>
+			</div>
+
+			</header>
+
+			<!-- cadre principale -->
+
+				<div class="main">
+					<div class="trait"> 
+						<ul>
+							<li class="li1"><a href="#">Séjours</a></li>
+							<li class="li2"><a href="#">Vols</a></li>
+							<li class="li3"><a href="#">Voitures</a></li>
+						</ul><br>
+						<hr>
+					</div>
+
+		<!-- formulaires -->
+		
+			<form>
+
+				<div class="origin">
+					<br><br>
+					<input class="origine" type="select" name="origine">
+					
+				</div>
+
+			<div class="
+			destination-div">
+				<h3 class="desti"> <i class="fas fa-car"></i> Destination</h3>
+				<input class="destination" type="text" name="destination">
+				<h3 class="ori"><i class="fas fa-plane"></i>  Origine</h3>
+			</div>
+			<div class="depart-div">
+				<br><br>
+				<h3 class="texte"><i class="fas fa-clock"></i> Date de départ</h3>
+				<input class="depart" type="date" name="depart" value="2021-03-06">
+
+			</div>
+			<div class="retour-div">
+
+				<h3 class="ok"><i class="fas fa-clock"></i> Date de retour <br><br></h3>
+				<br><br><br>
+				<input class="retour" type="date" name="retour" value="2021-03-15">
+				
+			</div>
+			<p class="last"><a href="#"><i class="fas fa-search"></i> rechercher</a></p>
+		</form>
+		</div>
+</body>
+</html>

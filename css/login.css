@@ -1,0 +1,152 @@
+*{
+	margin:0;
+}
+body{
+	background-position: center;
+	background: url('../images/img1.jpg') center;
+	font-size: 12px;
+}
+h1{
+	margin:0px;
+	padding-top: 80px;
+	text-align: center;
+	padding-bottom: 100px;
+	color: #031D37;
+}
+.hash1{
+	font-weight: bold;
+	margin-bottom: -70px;
+	text-indent: -149px;
+	margin-left: 150px;
+	font-size:15;
+	font-family: 'Reggae One', cursive;
+
+}
+.hash2{
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: -85px;
+	text-indent: 10px;
+	font-size:auto;
+	font-family: 'Reggae One', cursive;
+
+}
+.user{
+	 margin-left: 44%;
+	 margin-top: -30px;
+	 position: relative;
+}
+#area-1
+{
+	width: 500px;
+	height: 550px;
+	margin-left: 500px;
+	margin-top: -90px;
+	background: url(../images/2.jpg);
+	border-radius: 50px;
+	text-transform: uppercase;
+
+}
+
+input{
+	margin-left: 140px;
+	margin-top: 45px;
+	width: 250px;
+	height: 35px;
+	border-radius: 5px;
+	border-color: #4158D1;
+}
+#username
+{
+	margin-top: 10px;
+	padding-top: 100px;
+}
+#pass
+{
+	margin-top: 60px;
+}
+::placeholder
+{
+	line-height: 50px;
+}
+
+.connecter{
+	display: block;
+	width: 175px;
+	height: 35px;
+	margin-left: 190px;
+	margin-top: 70px;
+	background-color: green;
+	line-height: 1px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-bottom: 120px;
+
+}
+.forget
+{	
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+	margin-left: 60px;
+	font-weight: bold;
+	width: 260px;
+	height: 70px;
+	background-color: #097EC6;
+	border-radius: 3px;
+
+}
+.forget:hover
+{
+	background-color: white;
+}
+/*pour le bouton connecter */
+.connecter:hover
+{
+	background-color: blue;
+}
+/* je n'ai pas de compte*/
+.new
+{
+	text-transform: uppercase;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+	margin-top: -20px;
+	font-weight: bold;
+	margin-left:15px;
+	background-color: #097EC6;
+	border-radius: 3px;
+}
+.new:hover
+{
+	background-color: white;
+}
+.last{
+	margin-top: -40px;
+}
+/* pour le log de retour */
+.left{
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-left:200px;
+}
+.left-text{
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+	text-indent: 5px;
+
+
+}
+a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.left-text:hover{
+	color: gold;
+}

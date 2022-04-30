@@ -1,0 +1,60 @@
+/*RESET*/
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*body{
+	background: linear-gradient(to bottom, rgba(10,10,10,0.2)0%, rgba(10,10,10,0.2)100%),
+url(../images/universe.png)center;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	*/
+}
+.horloge{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	text-shadow: 0 2px 50px rgba(10,10,10,0.5);
+}
+.heures{
+	width: 500px;
+	margin-left: 40%;
+	padding-top: 15px;
+	font-size: 55px;
+	border-radius: 3px;
+	font-family: 'Orbitron', sans-serif;
+	padding-bottom: 5px;
+	font-weight: bold;
+	animation-duration: 20s;
+   animation-name: heures;
+   animation-iteration-count: infinite;
+   transition: none;
+	color: #D91044;
+
+}
+@keyframes heures{
+    70%{opacity: 1;}
+    80%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*.heures:hover{
+	color: gold;
+}*/
+.date{
+	margin-top: -25px;
+	font-family: 'Nunito Sans', sans-serif;
+	padding-top: 15px;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 650px;
+
+
+}
